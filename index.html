@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>LunchLunch</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+var Places = [
+  'Indo',
+  'Sultan',
+  "Wendy's",
+  'Henlin',
+  'Bacolod Chicken',
+  'Wee Nam',
+  'Grubshak',
+  'North Park',
+  'Kanin Club',
+  'Chowking',
+  'Spageti Haus'
+];
+
+var Place = Places[Math.floor(Math.random()*Places.length)];
+
+function myFunction() {
+    alert(Place);
+}
+
+
+</script>
+</head>
+<body>
+  <h1>Whats for Lunch!?</h1>
+  <botton id='Clicker' onclick="myFunction()">Click me!</botton>
+</body>
+</html>
